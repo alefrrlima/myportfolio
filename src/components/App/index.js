@@ -1,9 +1,10 @@
-import "./App.styles.css"
+import "../../styles/global.css"
+import AppRoutes from '../AppRoutes';
 
-export default function App(){
-   return(
+export default function App() {
+   return (
       <div className="app">
-         <span>Oi</span>
+         <AppRoutes />
       </div>
-   )
+   );
 }
