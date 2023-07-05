@@ -1,0 +1,9 @@
+.app {
+   display: flex;
+   flex-direction: row;
+   width: 1440px;
+   min-width: 320px;
+   height: 720px;
+   padding: 50px;
+   background-color: var(--gray1);
+}
