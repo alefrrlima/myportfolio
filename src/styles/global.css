@@ -4,7 +4,7 @@
    --gray1: #ebebeb;
    --gray2: #4c4c4c;
    --green1: #22a699;
-   --green2: #166a62;
+   --green2: #1c8378;
 }
 
 * {
@@ -34,4 +34,25 @@ body {
    height: 100vh;
    width: 100vw;
    background-color: #202124;
+}
+
+button {
+   cursor: pointer;
+}
+
+h1 {
+   color: var(--green1);
+   font-size: 3rem;
+   font-weight: 700;
+}
+
+h2 {
+   font-size: 3rem;
+   font-weight: 400;
+
+}
+
+h4 {
+   font-size: 2rem;
+   font-weight: 400;
 }

@@ -1,0 +1,44 @@
+.sobre {
+   justify-content: space-between;
+   height: 100%;
+}
+
+.sobre,
+.sobre div {
+   display: flex;
+   flex-direction: column;
+}
+
+.sobre div div {
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+
+.sobre div span {
+   font-size: 6rem;
+   color: var(--green1);
+}
+
+.sobre div span:last-child {
+   font-size: 4rem;
+   font-weight: 500;
+   color: var(--gray2);
+}
+
+.sobre h4 {
+   margin-bottom: 10px;
+}
+
+.sobre button {
+   color: var(--gray1);
+   background-color: var(--green1);
+   padding: 10px;
+   font-size: 2.5rem;
+   font-weight: 500;
+   width: fit-content;
+   transition: 0.2s;
+}
+
+.sobre button:hover, .sobre button:focus {
+   background-color: var(--green2);
+}
