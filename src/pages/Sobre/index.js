@@ -1,13 +1,13 @@
 import './Sobre.styles.css';
 import Section from '../../components/Section';
-import TechnologyIcon from '../../components/TechnologyIcon';
+import TechnologyIcon from '../../components/TechnologyIcon'
 
-import html from '../../images/html-icon.png';
-import css from '../../images/css-icon.png';
-import javascript from '../../images/javascript-icon.png';
-import react from '../../images/react-icon.png';
-import figma from '../../images/figma-icon.png';
-import github from '../../images/github-icon.png';
+import html from '../../images/html-icon.svg';
+import css from '../../images/css-icon.svg';
+import javascript from '../../images/javascript-icon.svg';
+import react from '../../images/react-icon.svg';
+import figma from '../../images/figma-icon.svg';
+import github from '../../images/github-icon.svg';
 
 export default function Sobre() {
    return (
@@ -26,12 +26,12 @@ export default function Sobre() {
             <div>
                <h4>Tecnologias utilizadas:</h4>
                <div>
-                  <TechnologyIcon src={html} alt="html" />
-                  <TechnologyIcon src={css} alt="css" />
-                  <TechnologyIcon src={javascript} alt="javascript" />
-                  <TechnologyIcon src={react} alt="react" />
-                  <TechnologyIcon src={figma} alt="figma" />
-                  <TechnologyIcon src={github} alt="github" />
+                  <TechnologyIcon src={html} alt='html'/>
+                  <TechnologyIcon src={css} alt='css'/>
+                  <TechnologyIcon src={javascript} alt='javascript'/>
+                  <TechnologyIcon src={react} alt='react'/>
+                  <TechnologyIcon src={figma} alt='figma'/>
+                  <TechnologyIcon src={github} alt='github'/>
                </div>
             </div>
             <button>Meu Currículo</button>

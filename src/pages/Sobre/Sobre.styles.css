@@ -17,6 +17,7 @@
 .sobre div span {
    font-size: 6rem;
    color: var(--green1);
+   font-weight: 900;
 }
 
 .sobre div span:last-child {

@@ -2,8 +2,15 @@
    width: 50px;
    height: 50px;
    margin-right: 10px;
+   cursor: pointer;
+   transition: transform 0.2s ease;
 }
 
 .technologyIcon:last-child {
    margin-right: 0;
+}
+
+.technologyIcon:hover, .technologyIcon:focus{
+   transform: scale(1.2);
+
 }
