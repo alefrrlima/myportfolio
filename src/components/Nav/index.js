@@ -1,14 +1,20 @@
-import "./Nav.styles.css"
+import './Nav.styles.css';
 
-import { Navigate } from "react-router-dom"
+import { useNavigate } from 'react-router-dom';
 
-export default function Nav(){
-   return(
+export default function Nav() {
+   const navigate = useNavigate();
+
+   const handleRoute = (path) => {
+      navigate(path);
+   };
+
+   return (
       <nav className="nav">
-         <button>Sobre</button>
-         <button>Projetos</button>
-         <button>Experiência</button>
-         <button>Contato</button>
+         <button onClick={() => handleRoute('/')}>Sobre</button>
+         <button onClick={() => handleRoute('/projetos')}>Projetos</button>
+         <button onClick={() => handleRoute('/experiencia')}>Experiência</button>
+         <button onClick={() => handleRoute('/contato')}>Contato</button>
       </nav>
-   )
+   );
 }

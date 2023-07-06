@@ -1,5 +1,10 @@
 import './Experiencia.styles.css';
+import Section from '../../components/Section';
 
 export default function Experiencia() {
-   return <div className="experiencia">Experiência</div>;
+   return (
+      <Section>
+         <div className="experiencia">Experiência</div>
+      </Section>
+   );
 }

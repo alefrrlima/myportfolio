@@ -1,5 +1,10 @@
 import './Contato.styles.css';
+import Section from '../../components/Section';
 
 export default function Contato() {
-   return <div className="contato">Contato</div>;
+   return (
+      <Section>
+         <div className="contato">Contato</div>
+      </Section>
+   );
 }
