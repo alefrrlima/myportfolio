@@ -1,0 +1,12 @@
+.technologyText {
+   background-color: var(--gray2);
+   color: var(--gray1);
+   font-size: 1.6rem;
+   font-weight: 700;
+   padding: 4px;
+   margin-right: 10px;
+}
+
+.technologyText:last-child{
+   margin-right: 0;
+}

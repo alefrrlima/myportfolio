@@ -1,0 +1,8 @@
+.project {
+   flex-direction: column;
+}
+
+.technologiesArea {
+   display: flex;
+   flex-direction: row;
+}
