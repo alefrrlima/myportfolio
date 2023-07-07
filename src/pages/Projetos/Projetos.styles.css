@@ -1,0 +1,9 @@
+.projetos {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+
+.projetos > * {
+   margin: 0 50px 50px 0;
+}

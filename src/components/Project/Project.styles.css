@@ -1,8 +1,26 @@
 .project {
    flex-direction: column;
+   display: flex;
 }
 
-.technologiesArea {
+.project > * {
+   margin-bottom: 10px;
+}
+
+.project > :last-child {
+   margin-bottom: 0;
+}
+
+.project div {
    display: flex;
    flex-direction: row;
+}
+
+.project img {
+   width: 300px;
+}
+
+.subtitle {
+   width: 300px !important;
+   height: fit-content;
 }

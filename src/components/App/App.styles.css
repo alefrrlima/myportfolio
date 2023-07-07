@@ -1,7 +1,7 @@
 .app {
    display: flex;
    flex-direction: row;
-   width: 1440px;
+   max-width: 1440px !important;
    min-width: 320px;
    height: 720px;
    padding: 50px;
