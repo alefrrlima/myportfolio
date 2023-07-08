@@ -3,7 +3,6 @@
    flex-direction: row;
    max-width: 1440px !important;
    min-width: 320px;
-   height: 720px;
-   padding: 50px;
+   padding: 0 0 0 0;
    background-color: var(--gray1);
 }
