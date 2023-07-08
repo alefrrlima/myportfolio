@@ -40,6 +40,7 @@
    transition: 0.2s;
 }
 
-.projectTitle:hover, .projectTitle:focus {
+.projectTitle:hover,
+.projectTitle:focus {
    color: var(--green2);
 }

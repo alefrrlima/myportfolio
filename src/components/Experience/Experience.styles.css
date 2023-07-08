@@ -1,0 +1,28 @@
+.experience {
+   display: flex;
+   flex-direction: column;
+   margin-right: 100px;
+   transition: transform 0.2s ease;
+   cursor: default;
+}
+
+.experience:hover,
+.experience:focus {
+   transform: translateY(-5px);
+}
+
+.experience span {
+   font-size: 2.2rem;
+}
+
+.experience p {
+   width: 405px;
+}
+
+.experience > * {
+   margin-bottom: 5px;
+}
+
+.experience > :last-child {
+   margin-bottom: 0;
+}
