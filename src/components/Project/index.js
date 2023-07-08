@@ -5,7 +5,7 @@ import TechnologyText from '../../components/TechnologyText';
 export default function Project(props) {
    return (
       <div className="project">
-         <h1>{props.title}</h1>
+         <button onClick={props.onClick} className='projectTitle'>{props.title}</button>
          <div>
             {props.html && <TechnologyText content="HTML" />}
             {props.css && <TechnologyText content="CSS" />}

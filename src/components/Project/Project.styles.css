@@ -1,6 +1,12 @@
 .project {
    flex-direction: column;
    display: flex;
+   transition: transform 0.2s ease;
+}
+
+.project:focus,
+.project:hover {
+   transform: translateY(-5px);
 }
 
 .project > * {
@@ -23,4 +29,17 @@
 .subtitle {
    width: 300px !important;
    height: fit-content;
+}
+
+.projectTitle {
+   color: var(--green1);
+   font-size: 3rem;
+   font-weight: 700;
+   width: fit-content;
+   background-color: var(--gray1);
+   transition: 0.2s;
+}
+
+.projectTitle:hover, .projectTitle:focus {
+   color: var(--green2);
 }
