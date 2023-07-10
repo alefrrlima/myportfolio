@@ -1,11 +1,11 @@
 .section {
-   height: 100%;
+   height: fit-content;
    width: 100%;
    margin-left: 100px;
 }
 
 @media (max-width: 1000px) {
    .section {
-      margin-left: 0;
+      margin: 0 0 100px 0;
    }
 }

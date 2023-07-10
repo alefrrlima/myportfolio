@@ -8,14 +8,23 @@ import Experiencia from '../../pages/Experiencia';
 import Contato from '../../pages/Contato';
 
 export default function AppRoutes({ stacked }) {
+   if (stacked) {
+      return (
+         <div className="stacked-pages">
+            <Sobre />
+            <Projetos />
+            <Experiencia />
+            <Contato />
+         </div>
+      );
+   }
+
    return (
-      <div className={stacked ? 'stacked-pages' : ''}>
-         <Routes>
-            <Route path="/" element={<Sobre />} />
-            <Route path="/projetos" element={<Projetos />} />
-            <Route path="/experiencia" element={<Experiencia />} />
-            <Route path="/contato" element={<Contato />} />
-         </Routes>
-      </div>
+      <Routes>
+         <Route path="/" element={<Sobre />} />
+         <Route path="/projetos" element={<Projetos />} />
+         <Route path="/experiencia" element={<Experiencia />} />
+         <Route path="/contato" element={<Contato />} />
+      </Routes>
    );
 }
