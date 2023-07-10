@@ -48,3 +48,27 @@
       margin-left: 50px;
    }
 }
+
+@media (max-width: 1000px) {
+   .contactLink {
+      width: 300px;
+   }
+
+   .contactLink button {
+      font-size: 2.2rem !important;
+      margin-bottom: 8px;
+   }
+
+   .contactLink span {
+      font-size: 1.8rem;
+   }
+
+   .contactLink img {
+      width: 40px;
+      height: 40px;
+   }
+
+   .contactLink div {
+      margin-left: 8px;
+   }
+}

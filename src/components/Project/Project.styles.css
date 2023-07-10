@@ -44,3 +44,10 @@
 .projectTitle:focus {
    color: var(--green2);
 }
+
+@media (max-width: 1000px) {
+   .projectTitle {
+      font-size: 2.2rem;
+
+   }
+}

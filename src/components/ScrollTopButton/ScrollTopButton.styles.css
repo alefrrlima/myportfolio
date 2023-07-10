@@ -1,0 +1,15 @@
+.scrollTopButton {
+   position: fixed;
+   right: 10px;
+   bottom: 10px;
+   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+   width: 50px;
+   height: 50px;
+   opacity: 75%;
+   transition: 0.2s ease;
+}
+
+.scrollTopButton:hover,
+.scrollTopButton:focus {
+   opacity: 100%;
+}
