@@ -1,0 +1,8 @@
+.contato {
+   display: flex;
+   flex-direction: row;
+}
+
+.contato div {
+   flex-direction: column;
+}
