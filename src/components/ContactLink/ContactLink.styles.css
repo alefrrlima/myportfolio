@@ -3,9 +3,11 @@
    flex-direction: row !important;
    margin-left: 100px;
    transition: transform 0.2s ease;
+   width: 340px;
 }
 
-.contactLink:hover, .contactLink:focus {
+.contactLink:hover,
+.contactLink:focus {
    transform: translatey(-5px);
 }
 
@@ -39,4 +41,16 @@
 .contactLink span {
    font-size: 2rem;
    line-height: 80%;
+}
+
+@media (max-width: 1100px) {
+   .contactLink {
+      margin-left: 50px;
+   }
+}
+
+@media (max-width: 1010px) {
+   .contactLink {
+      margin: 25px 0 0 0;
+   }
 }
