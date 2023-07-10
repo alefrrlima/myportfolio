@@ -21,7 +21,7 @@ export default function Sobre() {
             <div>
                <h4>Olá, me chamo</h4>
                <span>Alexandre Ferreira Lima</span>
-               <span>Eu idealizo e desenvolvo aplicações para a web.</span>
+               <span>Eu idealizo e desenvolvo aplicações para a web</span>
             </div>
             <div>
                <h1>Desenvolvedor Front-End</h1>

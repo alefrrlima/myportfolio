@@ -1,0 +1,39 @@
+.sessionMarker {
+   display: none;
+   flex-direction: row !important;
+   align-items: center;
+   width: 100% !important;
+   margin-bottom: 25px;
+}
+
+.sessionMarker div {
+   background-color: var(--gray3);
+   height: 2px;
+}
+
+.sessionMarker span {
+   font-size: 1.7rem !important;
+   color: var(--gray3) !important;
+   font-weight: 400 !important;
+   margin: 0 10px !important;
+}
+
+.sessionMarker div:first-child {
+   width: 10px !important;
+}
+
+.sessionMarker div:last-child {
+   width: 100px !important;
+   background: linear-gradient(
+      90deg,
+      var(--gray3) 0%,
+      rgba(181, 181, 181, 0) 100%
+   );
+}
+
+@media (max-width: 1000px) {
+   .sessionMarker {
+      display: flex;
+
+   }
+}

@@ -28,8 +28,14 @@
    margin-bottom: 0;
 }
 
-@media (max-width: 1224px) {
-   .experience{
+@media (max-width: 1225px) {
+   .experience {
+      margin-right: 50px;
+   }
+}
+
+@media (max-width: 1170px) {
+   .experience:first-child {
       margin-bottom: 25px;
    }
 }

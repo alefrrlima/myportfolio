@@ -7,6 +7,7 @@ import github from '../../images/github-icon.svg';
 
 import Section from '../../components/Section';
 import ContactLink from '../../components/ContactLink';
+import SessionMarker from '../../components/SessionMarker';
 
 export default function Contato() {
    const sendMail = () => {
@@ -23,6 +24,7 @@ export default function Contato() {
 
    return (
       <Section>
+         <SessionMarker title="CONTATO" />
          <div className="contato">
             <img src={profilepic} alt="Minha foto de perfil" />
             <div className="linksContainer">
