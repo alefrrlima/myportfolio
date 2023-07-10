@@ -4,6 +4,7 @@
    margin-right: 100px;
    transition: transform 0.2s ease;
    cursor: default;
+   width: 405px;
 }
 
 .experience:hover,
@@ -25,4 +26,10 @@
 
 .experience > :last-child {
    margin-bottom: 0;
+}
+
+@media (max-width: 1224px) {
+   .experience{
+      margin-bottom: 25px;
+   }
 }

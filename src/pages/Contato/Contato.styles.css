@@ -3,6 +3,14 @@
    flex-direction: row;
 }
 
-.contato div {
-   flex-direction: column;
+.linksContainer {
+   display: flex;
+   flex-wrap: wrap;
+   align-content: space-between !important;
+   width: 440px;
+}
+
+.contato img {
+   width: 350px;
+   height: 350px;
 }

@@ -8,3 +8,7 @@
    flex-direction: row;
    flex-wrap: wrap;
 }
+
+.experiences > :last-child {
+   margin-right: 0;
+}

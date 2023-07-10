@@ -1,0 +1,42 @@
+.contactLink {
+   display: flex;
+   flex-direction: row !important;
+   margin-left: 100px;
+   transition: transform 0.2s ease;
+}
+
+.contactLink:hover, .contactLink:focus {
+   transform: translatey(-5px);
+}
+
+.contactLink div {
+   display: flex;
+   flex-direction: column;
+   margin-left: 10px;
+}
+
+.contactLink img {
+   width: 50px;
+   height: 50px;
+}
+
+.contactLink button {
+   color: var(--green1);
+   font-size: 3rem;
+   font-weight: 700;
+   background-color: var(--gray1);
+   width: fit-content;
+   line-height: 80%;
+   margin-bottom: 10px;
+   transition: 0.2s;
+}
+
+.contactLink button:hover,
+.contactLink button:focus {
+   color: var(--green2);
+}
+
+.contactLink span {
+   font-size: 2rem;
+   line-height: 80%;
+}

@@ -24,7 +24,9 @@ export default function Projetos() {
    };
    const toRestaurantMenu = () => {
       window.open(
-         'https://alefrrlima.github.io/limas-restaurant-menu/', '-blank');
+         'https://alefrrlima.github.io/limas-restaurant-menu/',
+         '-blank'
+      );
    };
 
    return (

@@ -2,10 +2,10 @@ import './ContactLink.styles.css';
 
 export default function ContactLink(props) {
    return (
-      <div>
+      <div className='contactLink'>
          <img src={props.src} alt={props.alt} />
          <div>
-            <button>{props.title}</button>
+            <button onClick={props.onClick}>{props.title}</button>
             <span>{props.complement}</span>
          </div>
       </div>
