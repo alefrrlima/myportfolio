@@ -1,18 +1,21 @@
-import { BrowserRouter, Routes, Route, useNavigate } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
+
+import './AppRoutes.styles.css';
 
 import Sobre from '../../pages/Sobre';
 import Projetos from '../../pages/Projetos';
 import Experiencia from '../../pages/Experiencia';
 import Contato from '../../pages/Contato';
 
-export default function AppRoutes() {
-   const navigate = useNavigate();
+export default function AppRoutes({ stacked }) {
    return (
-      <Routes>
-         <Route path="/" element={<Sobre />} />
-         <Route path="/projetos" element={<Projetos />} />
-         <Route path="/experiencia" element={<Experiencia />} />
-         <Route path="/contato" element={<Contato />} />
-      </Routes>
+      <div className={stacked ? 'stacked-pages' : ''}>
+         <Routes>
+            <Route path="/" element={<Sobre />} />
+            <Route path="/projetos" element={<Projetos />} />
+            <Route path="/experiencia" element={<Experiencia />} />
+            <Route path="/contato" element={<Contato />} />
+         </Routes>
+      </div>
    );
 }

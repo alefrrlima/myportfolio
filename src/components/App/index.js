@@ -4,13 +4,30 @@ import AppRoutes from '../AppRoutes';
 import Nav from '../Nav';
 
 import { BrowserRouter } from 'react-router-dom';
+import { useEffect, useState } from 'react';
 
 export default function App() {
+   const [displayMobile, setDisplayMobile] = useState(
+      window.innerWidth <= 1000
+   );
+
+   useEffect(() => {
+      const handleResize = () => {
+         setDisplayMobile(window.innerWidth <= 1000);
+      };
+
+      window.addEventListener('resize', handleResize);
+
+      return () => {
+         window.removeEventListener('resize', handleResize);
+      };
+   }, []);
+
    return (
       <BrowserRouter>
          <div className="app">
-            <Nav />
-            <AppRoutes />
+            {!displayMobile && <Nav />}
+            <AppRoutes stacked={displayMobile} />
          </div>
       </BrowserRouter>
    );
