@@ -7,6 +7,10 @@
    width: 405px;
 }
 
+.experience:first-child {
+   margin-right: 100px;
+}
+
 .experience:hover,
 .experience:focus {
    transform: translateY(-5px);
@@ -29,7 +33,7 @@
 }
 
 @media (max-width: 1225px) {
-   .experience {
+   .experience:first-child {
       margin-right: 50px;
    }
 }
@@ -41,12 +45,16 @@
 }
 
 @media (max-width: 1000px) {
-   .experience, .experience p {
+   .experience:first-child {
+      margin-right: 100px;
+   }
+
+   .experience,
+   .experience p {
       width: 300px;
    }
 
    .experience span {
       font-size: 1.9rem;
    }
-
 }

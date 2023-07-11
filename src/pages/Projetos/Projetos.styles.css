@@ -17,3 +17,9 @@
       margin-bottom: 0;
    }
 }
+
+@media (max-width: 870px) {
+   .projetos > * {
+      margin: 0 50px 25px 0;
+   }
+}
