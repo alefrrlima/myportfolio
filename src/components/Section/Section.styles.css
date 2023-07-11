@@ -3,8 +3,18 @@
    margin-left: 240px;
 }
 
+.section > :last-child {
+   margin-bottom: 0 !important;
+}
+
 @media (max-width: 1080px) {
    .section {
       margin-left: 160px;
+   }
+}
+
+@media (max-width: 550px) {
+   .section {
+      margin: 0 0 75px 0;
    }
 }

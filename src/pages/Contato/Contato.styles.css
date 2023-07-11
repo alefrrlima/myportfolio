@@ -7,17 +7,17 @@
    display: flex;
    flex-wrap: wrap;
    align-content: space-between !important;
-   width: 440px;
 }
 
 .contato img {
-   width: 350px;
-   height: 350px;
+   width: 300px;
+   height: 300px;
 }
 
-@media (max-width: 1100px) {
-   .contato img {
+@media (max-width: 890px) {
+   .contato {
+      display: flex;
+      flex-direction: column;
       width: 300px;
-      height: 300px;
    }
 }

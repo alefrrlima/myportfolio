@@ -25,3 +25,9 @@
 .experiences > :last-child {
    margin-right: 0;
 }
+
+@media (max-width: 550px) {
+   .experiencia h4 {
+      margin: 25px 0 12.5px 0 !important;
+   }
+}

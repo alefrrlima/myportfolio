@@ -56,3 +56,9 @@
       margin-right: 0 !important;
    }
 }
+
+@media (max-width: 550px) {
+   .experience:last-child {
+      margin-bottom: 0;
+   }
+}
