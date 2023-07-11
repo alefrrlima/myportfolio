@@ -3,7 +3,7 @@ import './App.styles.css';
 import AppRoutes from '../AppRoutes';
 import Nav from '../Nav';
 
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 
 export default function App() {
@@ -22,11 +22,11 @@ export default function App() {
    }, []);
 
    return (
-      <BrowserRouter>
+      <HashRouter>
          <div className="app">
             {!displayMobile && <Nav />}
             <AppRoutes stacked={displayMobile} />
          </div>
-      </BrowserRouter>
+      </HashRouter>
    );
 }
