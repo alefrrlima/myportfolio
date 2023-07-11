@@ -23,7 +23,7 @@ export default function Sobre() {
                <span>Alexandre Ferreira Lima</span>
                <span>Eu idealizo e desenvolvo aplicações para a web</span>
             </div>
-            <div>
+            <div className='complement'>
                <h1>Desenvolvedor Front-End</h1>
                <h2>Florianópolis - SC</h2>
                <h2>24 anos</h2>

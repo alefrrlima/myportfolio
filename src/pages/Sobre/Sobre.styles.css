@@ -17,6 +17,16 @@
    flex-direction: column;
 }
 
+.complement {
+   transition: transform 0.2s ease;
+   cursor: default;
+}
+
+.complement:hover,
+.complement:focus {
+   transform: translateY(-5px);
+}
+
 .technologiesSection {
    display: flex;
    flex-direction: column;
