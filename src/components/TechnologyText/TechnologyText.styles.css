@@ -7,6 +7,14 @@
    margin-right: 10px;
 }
 
-.technologyText:last-child{
+.technologyText:last-child {
    margin-right: 0;
+}
+
+@media (max-width: 1000px) {
+   .technologyText {
+      font-size: 1.5rem;
+      padding: 3px;
+      margin-right: 5px;
+   }
 }

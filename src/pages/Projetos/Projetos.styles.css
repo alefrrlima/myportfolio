@@ -10,6 +10,9 @@
 }
 
 @media (max-width: 1000px) {
+   .projetos > * {
+      margin: 0 100px 50px 0;
+   }
    .projetos > :last-child {
       margin-bottom: 0;
    }

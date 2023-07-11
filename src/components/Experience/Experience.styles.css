@@ -41,7 +41,12 @@
 }
 
 @media (max-width: 1000px) {
-   .experience {
+   .experience, .experience p {
       width: 300px;
    }
+
+   .experience span {
+      font-size: 1.9rem;
+   }
+
 }
