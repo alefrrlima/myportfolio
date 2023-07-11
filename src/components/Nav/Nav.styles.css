@@ -22,13 +22,20 @@
    transform: scale(1.1);
 }
 
-.nav button:active {
-   transform: scale(1.1);
-   color: var(--green1);
-}
-
 .nav button:last-child {
    margin-bottom: 0;
+}
+
+.active {
+   font-weight: 600 !important;
+   transform: scale(1.1) !important;
+   color: var(--green1) !important;
+}
+
+.inactive {
+   font-weight: 400 !important;
+   transform: scale(1) !important;
+   color: var(--gray3) !important;
 }
 
 @media (max-width: 1080px) {
