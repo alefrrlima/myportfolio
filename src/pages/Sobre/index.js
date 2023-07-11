@@ -11,7 +11,7 @@ import github from '../../images/github-icon.svg';
 
 export default function Sobre() {
    const showResume = () => {
-      const resume = 'myportfolio/resume.pdf';
+      const resume = '/resume.pdf';
       window.open(resume, '-blank');
    };
 
@@ -23,7 +23,7 @@ export default function Sobre() {
                <span>Alexandre Ferreira Lima</span>
                <span>Eu idealizo e desenvolvo aplicações para a web</span>
             </div>
-            <div className="complement">
+            <div className='complement'>
                <h1>Desenvolvedor Front-End</h1>
                <h2>Florianópolis - SC</h2>
                <h2>24 anos</h2>
