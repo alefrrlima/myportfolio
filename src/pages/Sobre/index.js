@@ -11,7 +11,7 @@ import github from '../../images/github-icon.svg';
 
 export default function Sobre() {
    const showResume = () => {
-      const resume = `${window.location.origin}/resume.pdf`;
+      const resume = `${window.location.origin}/myportfolio/resume.pdf`;
       window.open(resume, '-blank');
    };
 
