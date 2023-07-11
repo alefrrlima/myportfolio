@@ -5,6 +5,7 @@
 
 .sobre > * {
    margin-bottom: 50px;
+   width: fit-content;
 }
 
 .sobre > :last-child {
@@ -16,13 +17,18 @@
    flex-direction: column;
 }
 
-.sobre div div {
+.technologiesSection {
+   display: flex;
+   flex-direction: column;
+}
+
+.technologiesSection > :last-child {
    flex-direction: row;
    flex-wrap: wrap;
 }
 
 .sobre div span {
-   font-size: 6rem;
+   font-size: 5.5rem;
    color: var(--green1);
    font-weight: 900;
    line-height: 80%;
@@ -30,7 +36,7 @@
 }
 
 .sobre div span:last-child {
-   font-size: 4rem;
+   font-size: 2.75rem;
    font-weight: 500;
    color: var(--gray2);
    margin: 0;
@@ -55,8 +61,41 @@
    background-color: var(--green2);
 }
 
-@media (max-width: 1256px) {
+@media (max-width: 1080px) {
+   .sobre div span {
+      font-size: 4.4rem;
+   }
+
    .sobre div span:last-child {
-      font-size: 3rem;
+      font-size: 2.2rem;
+   }
+
+   .technologiesSection > :last-child {
+      width: 290px;
+   }
+
+   .sobre > * {
+      margin-bottom: 50px;
+   }
+
+   .sobre button {
+      color: var(--gray1);
+      background-color: var(--green1);
+      padding: 5px;
+      font-size: 2rem;
+      font-weight: 500;
+      width: fit-content;
+      transition: 0.2s;
+   }
+}
+
+@media (max-width: 750px) {
+   .sobre div span {
+      font-size: 2.7rem;
+   }
+
+   .sobre div span:last-child {
+      font-size: 1.8rem;
+      line-height: 100%;
    }
 }

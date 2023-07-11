@@ -1,7 +1,7 @@
 .experience {
    display: flex;
    flex-direction: column;
-   margin-right: 100px;
+   margin-bottom: 25px;
    transition: transform 0.2s ease;
    cursor: default;
    width: 405px;
@@ -32,19 +32,11 @@
    margin-bottom: 0;
 }
 
-@media (max-width: 1225px) {
+@media (max-width: 1080px) {
    .experience:first-child {
-      margin-right: 50px;
+      margin-right: 50px !important;
    }
-}
 
-@media (max-width: 1170px) {
-   .experience:first-child {
-      margin-bottom: 25px;
-   }
-}
-
-@media (max-width: 1000px) {
    .experience:first-child {
       margin-right: 100px;
    }
@@ -56,5 +48,11 @@
 
    .experience span {
       font-size: 1.9rem;
+   }
+}
+
+@media (max-width: 800px) {
+   .experience:first-child {
+      margin-right: 0 !important;
    }
 }

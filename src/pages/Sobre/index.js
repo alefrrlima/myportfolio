@@ -28,7 +28,7 @@ export default function Sobre() {
                <h2>Florianópolis - SC</h2>
                <h2>24 anos</h2>
             </div>
-            <div>
+            <div className="technologiesSection">
                <h4>Tecnologias utilizadas:</h4>
                <div>
                   <TechnologyIcon src={html} alt="html" subtitle="HTML" />

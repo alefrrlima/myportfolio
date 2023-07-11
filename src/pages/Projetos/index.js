@@ -2,7 +2,7 @@ import './Projetos.styles.css';
 
 import Section from '../../components/Section';
 import Project from '../../components/Project';
-import SessionMarker from '../../components/SessionMarker';
+import SectionMarker from '../../components/SectionMarker';
 
 import budgetbuddy from '../../images/budgetbuddy.png';
 import idgen from '../../images/idgen.png';
@@ -32,7 +32,7 @@ export default function Projetos() {
 
    return (
       <Section>
-         <SessionMarker title="PROJETOS" />
+         <SectionMarker title="PROJETOS" />
 
          <div className="projetos">
             <Project

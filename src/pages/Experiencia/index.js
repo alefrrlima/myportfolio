@@ -1,12 +1,12 @@
 import './Experiencia.styles.css';
 import Section from '../../components/Section';
 import Experience from '../../components/Experience';
-import SessionMarker from '../../components/SessionMarker';
+import SectionMarker from '../../components/SectionMarker';
 
 export default function Experiencia() {
    return (
       <Section>
-         <SessionMarker title="EXPERIÊNCIA" />
+         <SectionMarker title="EXPERIÊNCIA" />
          <div className="experiencia">
             <h4>Profissional</h4>
             <div className="experiences">

@@ -28,3 +28,33 @@
    top: 65px;
    right: 7.5px;
 }
+
+@media (max-width: 1080px) {
+   .technologyIcon {
+      flex-direction: row !important;
+      transition: transform 0.2s ease;
+      align-items: start;
+   }
+
+   .technologyIcon img {
+      width: 35px;
+      height: 35px;
+      cursor: default;
+      margin: 0 5px 15px 0 !important;
+   }
+
+   .technologyIcon span {
+      font-size: 15px !important;
+      width: 90px;
+      position: unset;
+      text-align: left;
+      margin-right: 15px !important;
+      font-size: 1.8rem !important;
+      margin-top: 10px !important;
+   }
+
+   .technologyIcon:hover,
+   .technologyIcon:focus {
+      transform: scale(1);
+   }
+}

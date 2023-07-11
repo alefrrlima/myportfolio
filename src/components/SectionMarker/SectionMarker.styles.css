@@ -1,0 +1,22 @@
+.sectionMarker {
+   display: none;
+   background-color: var(--gray3);
+   padding-left: 18px;
+   width: fit-content;
+   margin-bottom: 25px !important;
+}
+
+.sectionMarker span {
+   background-color: var(--gray1);
+   font-size: 2rem;
+   color: var(--gray3);
+   font-weight: 600;
+   padding-left: 5px;
+   line-height: 10px;
+}
+
+/* @media (max-width: 1000px) {
+   .sectionMarker {
+      display: block;
+   }
+} */
