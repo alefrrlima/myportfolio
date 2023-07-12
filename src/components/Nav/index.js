@@ -1,18 +1,25 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import './Nav.styles.css';
 
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useLocation } from 'react-router-dom';
 
 export default function Nav() {
-   const [currentPage, setCurrentPage] = useState('');
+   const [currentPage, setCurrentPage] = useState('/');
 
    const navigate = useNavigate();
+   const location = useLocation();
 
    const handleRoute = (path) => {
-      console.log(currentPage);
       navigate(path);
       setCurrentPage(path);
    };
+
+   useEffect(() => {
+      const handleScroll = () => {
+         const pageBotton =
+            window.innerHeight + window.scrollY >= document.body.offsetHeight;
+      };
+   }, []);
 
    return (
       <nav className="nav">
