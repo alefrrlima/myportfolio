@@ -5,21 +5,12 @@ import { useNavigate, useLocation } from 'react-router-dom';
 
 export default function Nav() {
    const [currentPage, setCurrentPage] = useState('/');
-
    const navigate = useNavigate();
-   const location = useLocation();
 
    const handleRoute = (path) => {
       navigate(path);
       setCurrentPage(path);
    };
-
-   useEffect(() => {
-      const handleScroll = () => {
-         const pageBotton =
-            window.innerHeight + window.scrollY >= document.body.offsetHeight;
-      };
-   }, []);
 
    return (
       <nav className="nav">
