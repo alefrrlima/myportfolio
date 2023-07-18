@@ -21,7 +21,7 @@ export default function Projetos() {
       window.open('https://alefrrlima.github.io/id-gen/', '-blank');
    };
    const toFirstPortfolio = () => {
-      window.open('https://alefrrlima.github.io/personal-portfolio/', '-blank');
+      window.open('https://alefrrlima.github.io/old-portfolio/', '-blank');
    };
    const toRestaurantMenu = () => {
       window.open(
@@ -64,7 +64,7 @@ export default function Projetos() {
             />
             <Project
                onClick={toFirstPortfolio}
-               title="Primeiro Portfólio"
+               title="Antigo Portfólio"
                html="true"
                css="true"
                src={firstportfolio}
